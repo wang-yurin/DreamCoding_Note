@@ -53,14 +53,21 @@ console.log(age2);
 */
 
 // 3. Constant
-// faver immitable data type always for a few reason:
-// - security
-// - thread safety
-// - reduce human mistakes
+// use conts whenever possible.
+// only use let if variable needs to change.
+
 const dayInWeek = 7;
 const maxNumber = 5;
 console.log(dayInWeek);
 console.log(maxNumber);
+
+// Note!!
+// Immutable data types : primitive types, frozen objects (i.e. object.freeze())
+// Mutable data types : all objects by default are mutable in JS
+// faver immitable data type always for a few reason:
+// - security
+// - thread safety
+// - reduce human mistakes
 
 // 4. Variable Types
 // primitive, single item: number, string, boolean, null, undefined, symbol
